@@ -1,0 +1,290 @@
+22:39:29.660 [JavaFX Application Thread] DEBUG GameApplication      - Logger initialized
+22:39:29.672 [JavaFX Application Thread] DEBUG MainWindow           - Creating a JavaFX scene
+22:39:29.874 [JavaFX Application Thread] DEBUG MainWindow           - Target settings size: 1050.0 x 700.0
+22:39:29.874 [JavaFX Application Thread] DEBUG MainWindow           - Scaled scene size:    1050.0 x 700.0
+22:39:29.874 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+22:39:30.400 [JavaFX Application Thread] DEBUG GameApplication      - Starting FXGL
+22:39:30.400 [JavaFX Application Thread] INFO  Version              - FXGL-0.4.1
+22:39:30.400 [JavaFX Application Thread] INFO  Version              - Source code and latest versions at: https://github.com/AlmasB/FXGL
+22:39:30.401 [JavaFX Application Thread] INFO  Version              -              Join the FXGL chat at: https://gitter.im/AlmasB/FXGL
+22:39:30.511 [FXGL Launcher Thread     ] DEBUG FXGL                 - Loading FXGL system data
+22:39:30.521 [FXGL Launcher Thread     ] DEBUG IOTask               - Executing task: readDataTask(system/fxgl.bundle)
+22:39:30.560 [FXGL Launcher Thread     ] DEBUG FS                   - Reading from: system/fxgl.bundle
+22:39:30.667 [FXGL Launcher Thread     ] DEBUG IOTask               - Task succeeded: readDataTask(system/fxgl.bundle)
+22:39:30.668 [FXGL Launcher Thread     ] DEBUG Bundle               - Logging bundle: FXGL
+22:39:30.679 [FXGL Launcher Thread     ] DEBUG Bundle               - FXGL.offline.timer.version.check=2018-02-02T12:28:21.879
+22:39:30.686 [FXGL Launcher Thread     ] DEBUG GameApplication      - FXGL configuration complete
+22:39:30.698 [FXGL Launcher Thread     ] INFO  GameApplication      - FXGL configuration took:  0.289 sec
+22:39:30.701 [FXGL Launcher Thread     ] DEBUG GameApplication      - Logging game settings
+Title: TiledMapPlatformer
+Version: 
+Width: 1050
+Height: 700
+Fullscreen: true
+Intro: false
+Menus: false
+Profiling: false
+Single step:false
+App Mode: DEVELOPER
+Menu Key: ESCAPE
+Stage Style: DECORATED
+Scene Factory: class com.almasb.fxgl.scene.SceneFactory
+Dialog Factory: class com.almasb.fxgl.ui.FXGLDialogFactory
+UI Factory: class com.almasb.fxgl.ui.FXGLUIFactory
+Notification Service: class com.almasb.fxgl.gameplay.notification.XboxNotificationView
+Exception Handler: class com.almasb.fxgl.app.FXGLExceptionHandler
+22:39:30.833 [FXGL Launcher Thread     ] DEBUG GameApplication      - Configuring GameApplication
+22:39:30.858 [FXGL Launcher Thread     ] DEBUG AppStateMachine      - Initializing application states
+22:39:30.917 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+22:39:31.070 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+22:39:31.219 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/core/notification.wav
+22:39:31.342 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/select.wav
+22:39:31.345 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/back.wav
+22:39:31.347 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/sounds/menu/press.wav
+22:39:31.351 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/VarelaRound-Regular.ttf
+22:39:31.393 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/fonts/lucida_console.ttf
+22:39:31.401 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/css/fxgl_dark.css
+22:39:31.401 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/icons/fxgl_icon.png
+22:39:31.432 [FXGL Launcher Thread     ] DEBUG AssetLoader          - Loading from disk: /assets/ui/cursors/fxgl_default.png
+22:39:31.486 [FXGL Launcher Thread     ] DEBUG FXGL.GameScene       - Game scene initialized: 1050x700
+22:39:31.490 [FXGL Launcher Thread     ] DEBUG FXGL.GameWorld       - Game world initialized
+22:39:31.582 [FXGL Launcher Thread     ] DEBUG FXGL.PhysicsWorld    - Physics world initialized: appHeight=700, physics.ppm=50.0
+22:39:31.611 [FXGL Launcher Thread     ] DEBUG Input                - Registered new binding: Pause - Esc
+22:39:31.637 [FXGL Launcher Thread     ] INFO  GameApplication      - Game configuration took:  0.797 sec
+22:39:31.640 [JavaFX Application Thread] DEBUG MainWindow           - Opening main window
+22:39:31.722 [JavaFX Application Thread] DEBUG MainWindow           - Window border size: (0.0, 22.0)
+22:39:31.723 [JavaFX Application Thread] DEBUG MainWindow           - Scaled size: 1050.0 x 700.0
+22:39:31.723 [JavaFX Application Thread] DEBUG MainWindow           - Scaled ratio: (1.0, 1.0)
+22:39:31.723 [JavaFX Application Thread] DEBUG MainWindow           - Scene size: 1050.0 x 700.0
+22:39:31.723 [JavaFX Application Thread] DEBUG MainWindow           - Stage size: 1050.0 x 722.0
+22:39:31.723 [JavaFX Application Thread] DEBUG GameApplication      - Running preInit()
+22:39:31.727 [JavaFX Application Thread] DEBUG AnnotationParser     - Main app package name: tiled_platformer
+22:39:31.895 [JavaFX Application Thread] DEBUG AnnotationParser     - @SetAchievementStore: []
+22:39:31.897 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Screenshot - P
+22:39:31.898 [JavaFX Application Thread] DEBUG Input                - Registered new binding: Dev Options - CTRL+0
+22:39:31.898 [JavaFX Application Thread] DEBUG Input                - Registered new binding: left - Left
+22:39:31.898 [JavaFX Application Thread] DEBUG Input                - Registered new binding: right - Right
+22:39:31.899 [JavaFX Application Thread] DEBUG Input                - Registered new binding: up - Up
+22:39:31.938 [JavaFX Application Thread] DEBUG GameApplication      - Starting main loop
+22:39:31.972 [JavaFX Application Thread] DEBUG StartupState         - STARTUP
+22:39:31.973 [JavaFX Application Thread] DEBUG GameApplication      - Starting new game
+22:39:31.973 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+22:39:31.973 [JavaFX Application Thread] DEBUG AppStateMachine      - StartupState -> LoadingState
+22:39:32.023 [JavaFX Application Thread] DEBUG AnnotationParser     - Main app package name: tiled_platformer
+22:39:32.023 [JavaFX Application Thread] DEBUG InitAppTask          - Parsing annotations
+22:39:32.074 [JavaFX Application Thread] DEBUG AnnotationParser     - @SetEntityFactory: [TiledPlatformerFactory]
+22:39:32.074 [JavaFX Application Thread] DEBUG AnnotationParser     - @SetEventHandler: []
+22:39:32.074 [JavaFX Application Thread] DEBUG AnnotationParser     - @AddCollisionHandler: []
+22:39:32.087 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Clearing previous game
+22:39:32.088 [FXGL Background Thread 1 ] DEBUG FXGL.GameWorld       - Clearing game world
+22:39:32.089 [FXGL Background Thread 1 ] DEBUG FXGL.PhysicsWorld    - Clearing physics world
+22:39:32.089 [FXGL Background Thread 1 ] DEBUG FXGL.GameScene       - Clearing game scene
+22:39:32.089 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Assets
+22:39:32.091 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Game
+22:39:32.127 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/json/NinjaPlatformerLevel3.json
+22:39:32.551 [FXGL Background Thread 1 ] DEBUG FXGL.GameWorld       - Clearing removable entities
+22:39:32.552 [FXGL Background Thread 1 ] DEBUG FXGL.GameWorld       - Setting level from map
+22:39:32.600 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from disk: /assets/textures/tiledMap.png
+22:39:32.627 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.627 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.628 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.628 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.628 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.628 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.628 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.629 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.629 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.629 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.629 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.629 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.629 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.630 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.630 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.630 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.630 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.630 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.630 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.631 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.631 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.631 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.631 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.631 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.632 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.632 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.632 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.632 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.632 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.632 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.633 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.633 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.633 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.633 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.633 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.633 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.634 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.634 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.634 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.634 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.634 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.634 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.635 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.635 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.635 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.635 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.635 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.635 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.636 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.636 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.636 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.636 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.636 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.636 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.637 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.637 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.637 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.638 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.638 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.638 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.639 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.639 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.639 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.639 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.639 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.640 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.640 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.640 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.640 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.640 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.641 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.641 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.641 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.641 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.641 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.641 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.641 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.642 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.642 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.642 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.642 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.642 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.642 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.642 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.643 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.643 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.643 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.643 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.643 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.643 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.643 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.644 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.644 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.644 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.644 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.644 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.644 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.644 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.645 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.645 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.645 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.645 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.645 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.646 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.646 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.646 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.646 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.646 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.646 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.646 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.647 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.647 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.647 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.647 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.647 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.647 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.647 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.648 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.648 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.648 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.648 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.648 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.649 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.649 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.649 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.649 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.650 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.650 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.650 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.650 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.650 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.651 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.651 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.652 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.652 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.652 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.652 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.652 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.652 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.653 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.653 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.653 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.653 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.653 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.654 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.654 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.654 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.654 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.654 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.655 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.655 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.655 [FXGL Background Thread 1 ] DEBUG AssetLoader          - Loading from cache: /assets/textures/tiledMap.png
+22:39:32.658 [FXGL Background Thread 1 ] DEBUG FXGL.GameScene       - Creating render group for layer: BACKGROUND(1000)
+22:39:32.732 [FXGL Background Thread 1 ] DEBUG FXGL.GameScene       - Creating render group for layer: TOP(2147483647)
+22:39:32.815 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing Physics
+22:39:32.816 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initializing UI
+22:39:32.816 [FXGL Background Thread 1 ] DEBUG InitAppTask          - Initialization Complete
+22:39:32.816 [FXGL Background Thread 1 ] INFO  InitAppTask          - Game initialization took: 0.729 sec
+22:39:32.825 [JavaFX Application Thread] DEBUG Input                - Clearing active input actions
+22:39:32.825 [JavaFX Application Thread] DEBUG AppStateMachine      - LoadingState -> PlayState
+22:39:38.443 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:39.145 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:39.911 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:41.295 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:42.295 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:43.113 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:44.096 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:45.314 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:46.130 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:46.848 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:47.699 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:49.433 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:50.050 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:50.850 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:51.618 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:52.818 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:54.536 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:58.020 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:39:59.137 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:01.072 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:01.823 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:02.523 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:03.290 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:03.973 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:04.691 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:05.507 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:06.358 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:07.424 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:08.126 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:09.176 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:09.960 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:10.776 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:11.527 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:12.645 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:13.629 [JavaFX Application Thread] DEBUG Input                - Mocking key release: Up
+22:40:21.027 [JavaFX Application Thread] DEBUG GameApplication      - Exiting game application
+22:40:21.029 [JavaFX Application Thread] DEBUG GameApplication      - Shutting down background threads
+22:40:21.030 [JavaFX Application Thread] DEBUG GameApplication      - Exiting FXGL
+22:40:21.030 [JavaFX Application Thread] DEBUG FXGL                 - Saving FXGL system data
+22:40:21.031 [JavaFX Application Thread] DEBUG IOTask               - Executing task: writeDataTask(system/fxgl.bundle)
+22:40:21.036 [JavaFX Application Thread] DEBUG FS                   - Writing to: system/fxgl.bundle
+22:40:21.042 [JavaFX Application Thread] DEBUG IOTask               - Task succeeded: writeDataTask(system/fxgl.bundle)
+22:40:21.042 [JavaFX Application Thread] DEBUG GameApplication      - Closing logger and exiting JavaFX
