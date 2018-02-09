@@ -14,6 +14,12 @@ import javafx.scene.shape.Rectangle;
  *
  * @author Almas Baimagambetov (AlmasB) (almaslvl@gmail.com)
  */
+
+/**
+* I just kept this in my Project for reference this is not my code
+* and in no way am I trying to take credit for it
+*
+*/
 public class RayCast extends GameApplication {
 
     @Override
